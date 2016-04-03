@@ -4,9 +4,8 @@ namespace Xeromatic.Tests
 {
     public class SomeTest
     {
-        //Install the ReSharper XUnit test runner to run these tests
-        //Click ReSharper up top in the menu and go to extension manager
-        //Search for XUnit and install the helper
+        //Go to Tools, Extensions and Updates, and install xUnit.net Test Extensions.
+        //Then view your test in the Test Explorer to run it.
         [Fact]
         public void Test1()
         {
