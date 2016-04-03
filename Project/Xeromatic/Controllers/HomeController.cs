@@ -32,8 +32,7 @@ namespace Xeromatic.Controllers
         [HttpPost]
         public ActionResult Data()
         {
-            var tweets = _twitterApiService.GetTweets();
-            //var tweets = _tweetDbService.GetTweets();
+            var tweets = _tweetDbService.GetTweets();
             return Json(tweets);
         }
     }
