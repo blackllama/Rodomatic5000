@@ -1,5 +1,8 @@
 ﻿GO
 
+--If you get errors during database deploy along the lines of "user xeromatic could not connect to database" - then comment out this file.
+
+
 CREATE LOGIN [XeromaticUser] WITH PASSWORD = N'Password1'
 GO
 
@@ -13,11 +16,12 @@ GO
 
 EXEC sp_addrolemember 'Xeromatic_ReadWrite', 'XeromaticUser'
 
-GO
+GO 
 --ALTER ROLE [Xeromatic_ReadWrite] ADD Member [XeromaticUser]
 --GO
 
 /* Permissions */
+
 
 GRANT CONNECT TO [Xeromatic_ReadWrite]
 GO

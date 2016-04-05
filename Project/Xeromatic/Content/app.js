@@ -39,7 +39,7 @@ var App = React.createClass({
 				<h2>Welcome to the Xeromatic!</h2>
 				<div className="panel panel-default">
 					<div className="panel-heading">
-						<h3 className="panel-title">Saved Tweets</h3>
+						<h3 className="panel-title">Pinned Tweets</h3>
 					</div>
 					<ul className="list-group">{tweets}</ul>
 				</div>
